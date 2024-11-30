@@ -18,7 +18,8 @@ public class Rider extends User{
 
     private String email;
     private String vehicleDetails;
-    private String currentLocation; // Could be a GPS coordinate or address
+    private Integer latitude; // Could be a GPS coordinate or address
+    private Integer longitude;
 
     private Double rating;  // For bonus requirement
 
